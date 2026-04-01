@@ -18,3 +18,4 @@ To adhere to OCP, the logic should be moved into a polymorphic structure using t
 2. Implement specific classes for each discount (e.g., `StudentDiscount`, `VipDiscount`).
 3. `DiscountManager` will then use the interface to calculate discounts without needing to know the specific types.
 
+ 

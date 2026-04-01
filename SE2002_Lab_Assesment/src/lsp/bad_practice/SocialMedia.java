@@ -16,4 +16,4 @@ class WhatsApp extends SocialMedia {
         // Violation: WhatsApp doesn't have public stories like IG, breaking the contract.
         throw new UnsupportedOperationException("WhatsApp doesn't support public stories!");
     }
-}
+} 

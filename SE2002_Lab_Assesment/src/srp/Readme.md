@@ -19,3 +19,4 @@ To comply with SRP, the responsibilities should be delegated to specialized clas
 2.  **InvoiceRepository**: Should handle the `saveToDatabase()` logic.
 3.  **EmailService**: Should handle the `sendEmail()` logic.
 
+ 

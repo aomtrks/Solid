@@ -9,4 +9,4 @@ public class NotificationApp {
     public void notify(String message) {
         gmail.send(message);
     }
-}
+}  

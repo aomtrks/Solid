@@ -18,3 +18,4 @@ To fix this violation, the hierarchy should be restructured to ensure that subcl
 2.  **Use Interfaces**: Create a `StoryFeature` interface for platforms that actually support stories.
 3.  **Specific Inheritance**: Only `Instagram` should implement the `StoryFeature` interface.
 
+ 

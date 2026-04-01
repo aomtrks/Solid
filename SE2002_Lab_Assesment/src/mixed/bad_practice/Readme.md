@@ -18,4 +18,3 @@ To clean up this architecture, the responsibilities should be separated and depe
 1.  **Define an Interface**: Create a `PaymentGateway` interface that `BankAPI` implements.
 2.  **Externalize Logging**: Move the file writing logic to a dedicated `Logger` class.
 3.  **Constructor Injection**: Pass the dependencies into `PaymentProcessor` so it doesn't care about their specific implementations.
-
