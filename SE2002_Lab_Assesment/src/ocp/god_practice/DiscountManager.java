@@ -1,5 +1,5 @@
 public class DiscountManager {
-    public printDiscount(DiscountStrategy x){
-        return x;
+    public double processDiscount(DiscountStrategy discount) {
+        return discount.apply();
     }
 }
